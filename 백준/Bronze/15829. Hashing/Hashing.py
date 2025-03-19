@@ -6,4 +6,4 @@ for i in range(len(arr)):
 sum = 0
 for j in range(len(num)):
     sum += num[j]*(pow(31, j))
-print(sum)
+print(sum % 1234567891)
